@@ -63,7 +63,7 @@ We provide a helper script to spin up the Local Embedding Server, SLM Server, an
 Start the FastAPI server. This will automatically trigger the **ingestion pipeline** (download -> chunk -> summarize -> index) on startup.
 
 ```bash
-uvicorn backend:app --reload --port 8002
+uvicorn backend:app --port 8002
 ```
 
 ---
